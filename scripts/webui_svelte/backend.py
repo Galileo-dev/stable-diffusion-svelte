@@ -15,10 +15,6 @@ from fastapi.security import OAuth2PasswordBearer
 import uvicorn
 
 from PIL import ImageChops
-from webui import *
-
-
-from utils import *
 
 mimetypes.init()
 mimetypes.add_type('application/javascript', '.js')
